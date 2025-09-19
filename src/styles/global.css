@@ -1,1 +1,7 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
 @import "tailwindcss";
+
+/* Aqui costumizamos el Font de la pagina */
+@theme{
+    --font-poppins: "Poppins", sans-serif;
+}
