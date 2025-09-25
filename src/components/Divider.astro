@@ -1,0 +1,12 @@
+---
+// Este recibe un prop donde hacemos dinamico en divName
+const { divName } = Astro.props;
+
+---
+
+<span class="flex items-center">
+    <span class="h-px flex-1 bg-gray-300"></span>
+    <!-- Aqui agregamos el divName -->
+    <span class="shrink-0 px-4 text-gray-900">{divName}</span>
+    <span class="h-px flex-1 bg-gray-300"></span>
+</span>
